@@ -16,6 +16,5 @@ export class PhoneInputComponent {
     public snsService: SnsService,
   ) { 
     this.example = getExampleNumber('UA', examples);
-    console.log(this.example)
   }
 }
