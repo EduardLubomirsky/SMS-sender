@@ -1,0 +1,40 @@
+@import "~src/assets/variables.scss";
+
+:host {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 400px;
+    width: 100%;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    position: relative;
+
+}
+
+.title {
+    position: absolute;
+    top: 0;
+    font-family: $font-main;
+    margin: 0;
+    background: $color-main;
+    transform: translateY(-100%);
+    padding: 0 20px;
+    color: #fff;
+}
+
+button {
+    font-family: $font-main;
+    background: #fff;
+    border: 1px solid #fff;
+    color: $color-main;
+    margin-top: 14px;
+    padding: 5px 15px;
+    font-size: 16px;
+    border-radius: 5px;
+    align-self: flex-end;
+    cursor: pointer;
+}

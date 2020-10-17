@@ -1,0 +1,22 @@
+@import "~src/assets/variables.scss";
+
+:host {
+    width: 100%;
+    margin-top: 15px;
+}
+
+textarea {
+    resize: none;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    background: #fff;
+    box-sizing: border-box;
+
+    &::placeholder {
+        font-size: 14px;
+        font-family: $font-main;
+        color: $color-main;
+    }
+}
