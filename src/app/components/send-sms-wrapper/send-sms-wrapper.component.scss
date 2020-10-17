@@ -7,6 +7,8 @@
     flex-direction: column;
     max-width: 400px;
     width: 100%;
+    min-width: calc(100% - 40px);
+    box-sizing: border-box;
     margin: 20px;
     padding: 20px;
     border: 1px solid #fff;
@@ -17,6 +19,7 @@
 
 .title {
     position: absolute;
+    text-align: center;
     top: 0;
     font-family: $font-main;
     margin: 0;
