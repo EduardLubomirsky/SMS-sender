@@ -2,6 +2,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { HttpClientModule } from '@angular/common/http';
 import { FormsModule } from '@angular/forms';
+import { NotifierModule } from "angular-notifier";
 
 import { AppComponent } from './app.component';
 import { PhoneInputComponent } from './components/phone-input/phone-input.component';
@@ -19,6 +20,7 @@ import { SendSmsWrapperComponent } from './components/send-sms-wrapper/send-sms-
     BrowserModule,
     HttpClientModule,
     FormsModule,
+    NotifierModule,
   ],
   providers: [],
   bootstrap: [ AppComponent ],

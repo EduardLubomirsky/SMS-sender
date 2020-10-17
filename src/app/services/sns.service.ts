@@ -18,8 +18,12 @@ export class SnsService {
 
   }
 
+  clearForm(): void {
+    this.message = '';
+    this.phone = '';
+  }
+
   sendSmsMessage(body): Observable<SendSmsRequestResponse> {
-    debugger;
     return this.http.post<SendSmsRequestResponse>(this.url, body);
   }
 }
